@@ -121,5 +121,6 @@ for i in message_d.lower():
     else:
         message_e.append(i)
 print("----()---()----")
-print("".join(message_e))
+print("".join(message_e), end=/n)
+print(" ")
 print("----()---()----")
